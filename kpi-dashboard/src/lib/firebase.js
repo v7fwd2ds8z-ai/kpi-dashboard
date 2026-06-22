@@ -6,15 +6,17 @@ import { getDatabase } from "firebase/database";
 //  PASSO 1: Cole aqui as credenciais do seu projeto Firebase
 //  (ver README.md para instruções detalhadas)
 // ============================================================
+```js
 const firebaseConfig = {
-  apiKey: "COLE_AQUI",
-  authDomain: "COLE_AQUI",
-  databaseURL: "COLE_AQUI",
-  projectId: "COLE_AQUI",
-  storageBucket: "COLE_AQUI",
-  messagingSenderId: "COLE_AQUI",
-  appId: "COLE_AQUI",
+  apiKey: "AIzaSy...",
+  authDomain: "meus-kpis.firebaseapp.com",
+  databaseURL: "https://meus-kpis-default-rtdb.firebaseio.com",
+  projectId: "meus-kpis",
+  storageBucket: "meus-kpis.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abc123",
 };
+```
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
